@@ -26,17 +26,6 @@ app.use("/surveys", surveyRoutes);
 app.use("/students", studentRoutes);
 app.use("/salams", salamRoutes);
 
-app.get("/", (req, res) => {
-  res.json({
-    nama: "Ramdhan Nugraha Pratama  ",
-    email: "ramdhannp6@gmail.com",
-  });
-});
-
-app.post("/", (req, res) => {
-  res.send("Hello post Method");
-});
-
 app.listen(PORT, () => {
   console.log(`server berhasil di running diport ${PORT}`);
 });
