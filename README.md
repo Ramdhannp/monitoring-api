@@ -8,8 +8,8 @@ This project was made with:
 
 In the project directory, you can run:
 
-Clone from Github `https://github.com/Ramdhannp/monitoring-api.git`
-Go to root dir
+- Clone from Github `https://github.com/Ramdhannp/monitoring-api.git`
+- Go to root dir
 
 ## Usage
 
@@ -25,7 +25,7 @@ Setup a `.env` file in the root of the project.
 
 ### `npm start`
 
-Runs the app in the development mode.
+Runs the api in the development mode.
 
 ## Application Startup File
 
